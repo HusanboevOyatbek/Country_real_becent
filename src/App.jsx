@@ -7,7 +7,7 @@ import ToursPaje from './page/tours/ToursPaje'
 import HotelsPage from './page/hotels/HotelsPage'
 import DestPage from './page/destinations/destPage'
 import Layoutadmin from './components/Layout'
-import LoginPage from './components/login/LoginPage'
+import LoginPage from './page/login/LoginPage'
 
 const App = () => {
   const token = localStorage.getItem("token");
