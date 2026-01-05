@@ -34,8 +34,7 @@ const CountrisePage = () => {
       title_en: record.title_en,
       title_ru: record.title_ru,
       title_tr: record.title_tr,
-      description: record.description || '',
-      notes: record.notes || ''
+      
     });
     setIsModalOpen(true);
   };
